@@ -5,7 +5,7 @@ public class LavaScript : MonoBehaviour
     public float respawnTime = 2f;
     public LevelSystem levelSystem;
 
-    void OnTriggerEnter2D(Collider2D col)
+    void OnTriggerEnter2D(Collider2D col) // Ball collides with lava
     {
         if (col.CompareTag("Ball"))
         {
